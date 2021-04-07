@@ -10,6 +10,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
+    "lint:nx:all": "nx workspace-lint && nx run-many --all --target=lint",
+    "lint:last-commit-message": "commitlint --from HEAD~1 --to HEAD --verbose",
     "e2e": "ng e2e",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
