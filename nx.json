@@ -1,8 +1,4 @@
 {
-  "npmScope": "ngx-ks",
-  "affected": {
-    "defaultBase": "master"
-  },
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": {
@@ -14,6 +10,10 @@
     ".eslintrc.json": "*",
     "nx.json": "*"
   },
+  "affected": {
+    "defaultBase": "master"
+  },
+  "npmScope": "ngx-ks",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
@@ -22,5 +22,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "kickstart-demo": {
+      "tags": []
+    },
+    "kickstart-demo-e2e": {
+      "tags": [],
+      "implicitDependencies": ["kickstart-demo"]
+    }
+  }
 }
