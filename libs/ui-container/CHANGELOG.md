@@ -1,3 +1,10 @@
+## [1.0.0-beta.2](https://github.com/ngx-ks/ngx-ks/compare/ui-container-v1.0.0-beta.1...ui-container-v1.0.0-beta.2) (2021-04-14)
+
+
+### Bug Fixes
+
+* **lib:ui-container:** added manual peer dependecies ([db0c8bb](https://github.com/ngx-ks/ngx-ks/commit/db0c8bba60d28f4a236da773d5b886d8a0edb16a))
+
 ## 1.0.0-beta.1 (2021-04-14)
 
 
