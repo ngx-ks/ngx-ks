@@ -7,7 +7,7 @@
     ".eslintrc.json": "*",
     "nx.json": "*"
   },
-  "affected": { "defaultBase": "origin/${GITHUB_REF##*/}~5" },
+  "affected": { "defaultBase": "origin/${GITHUB_REF##*/}~1" },
   "npmScope": "ngx-ks",
   "tasksRunnerOptions": {
     "default": {

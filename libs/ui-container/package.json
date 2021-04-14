@@ -6,7 +6,9 @@
   },
   "peerDependencies": {
     "@angular/common": "^11.2.8",
-    "@angular/core": "^11.2.8"
+    "@angular/core": "^11.2.8",
+    "@ngx-ks/animations": "*",
+    "@ngx-ks/component-state": "*"
   },
   "dependencies": {
     "tslib": "^2.0.0"
