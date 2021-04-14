@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { StateComponent } from '@ngx-ks/component-state';
 import { displayNoneFade } from '@ngx-ks/animations';
 
@@ -8,9 +8,6 @@ import { displayNoneFade } from '@ngx-ks/animations';
   styleUrls: ['./container.component.scss'],
   animations: [ displayNoneFade ],
 })
-export class ContainerComponent<D, E> extends StateComponent<D, E> implements OnInit {
-
-  ngOnInit(): void {
-  }
+export class ContainerComponent<D, E> extends StateComponent<D, E> {
 
 }

@@ -1,5 +1,5 @@
-import { Subject } from "rxjs";
-import { BehaviorSubject } from "rxjs";
+import { Subject } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import { DataType, ErrorType, LoadingType } from './ComponentState';
 
 export interface ComponentStateInterface<D, E> {
