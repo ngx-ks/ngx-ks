@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'ngx-ks-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'kickstart-demo';
+
+  public title = 'ngx-kickstart-demo';
+  public isLoading$ = new BehaviorSubject(true);
+
+  constructor() {
+    // window.setTimeout(() => this.isLoading$.next(false), 5000)
+  }
 }

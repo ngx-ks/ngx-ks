@@ -1,0 +1,10 @@
+:host {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+ngx-ks-ui-container {
+  border: dashed 2px red;
+}

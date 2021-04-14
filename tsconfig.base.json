@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ngx-ks/component-state": ["libs/component-state/src/index.ts"],
+      "@ngx-ks/ui-container": ["libs/ui-container/src/index.ts"],
+      "@ngx-ks/animations": ["libs/animations/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

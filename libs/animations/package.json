@@ -1,0 +1,14 @@
+{
+  "name": "@ngx-ks/animations",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^11.2.8",
+    "@angular/core": "^11.2.8"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

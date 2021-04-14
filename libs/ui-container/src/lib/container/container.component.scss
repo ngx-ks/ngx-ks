@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  // relative creates a new z-index
+  position: relative;
+  // resetting the z-index... well kinda
+  // TODO: it would be better not to mess with it
+  z-index: -1;
+}
+
+.visible {
+}
+
+.hidden {
+  display: none;
+}
+
+.loader {
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}

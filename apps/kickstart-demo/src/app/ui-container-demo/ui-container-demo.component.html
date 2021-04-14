@@ -1,0 +1,11 @@
+<div class="controls">
+  <div class="links">
+    <a [routerLink]="['dynamic']">Dynamic</a>
+    <a [routerLink]="['fill-remaining']">Remaining</a>
+    <a [routerLink]="['fullscreen']">Fullscreen</a>
+  </div>
+  <div class="controls">
+    <button (click)="controlsService.toggleLoading()">Toggle loading</button>
+  </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,13 @@
+<ngx-ks-ui-container [loading$]="loading$">
+  <div content>
+    <p>This container height is dynamically set by it's content.</p>
+    <p>This can lead to the spinner not always being centered.</p>
+    <h5>HTML</h5>
+    <pre><code [highlight]="html" [languages]="['html']"></code></pre>
+    <h5>CSS</h5>
+    <pre><code [highlight]="css" [languages]="['css']"></code></pre>
+  </div>
+  <div loader>
+    <mat-spinner></mat-spinner>
+  </div>
+</ngx-ks-ui-container>

@@ -1,0 +1,10 @@
+<div class="content" [@visible]="(loading$ | async) ? false : true" [ngClass]="(loading$ | async) ? 'hidden': 'visible'">
+  <div>
+    <ng-content select="[content]"></ng-content>
+  </div>
+</div>
+<div class="loader" [@visible]="(loading$ | async) ? true : false" [ngClass]="(loading$ | async) ? 'visible': 'hidden'">
+  <div class="center">
+    <ng-content select="[loader]"></ng-content>
+  </div>
+</div>
